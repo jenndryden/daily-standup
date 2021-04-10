@@ -8,6 +8,7 @@ import AddNewToDoForm from './AddNewToDoForm';
 import { getToDoItemsFromLocalStorage, saveToDoItemsToLocalStorage } from './helper'
 
 const ToDo = () => {
+  <h1>Todo</h1>
   // Initialize todoItems state with the JSON string stored under todo key in localStorage, if it's falsy, use an empty array instead
   const [toDoItems, setToDoItems] = useState(getToDoItemsFromLocalStorage('todo') || [])
 
