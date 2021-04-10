@@ -50,8 +50,6 @@ const AddNewToDoForm = ({ onAddToDo, customError }) => {
         placeholder="What needs to be done?"
       />
    <button type="submit">Add</button>
-   <button type="submit">Add</button>
-   <button type="submit">Add</button>
     </form>
     {error && <span>{error}</span>}
     </>
